@@ -74,4 +74,5 @@ push-dns-list-to-router(){
 export -f push-dns-list-to-router
 
 
+pull-dns-list
 push-dns-list-to-router
