@@ -51,7 +51,6 @@ export -f get-session-token
 
 push-dns-list-to-router(){
     get-session-token
-    echo $SESSION_TOKEN
 
     # Push files to router
     IFS=$'\n'       # make newlines the only separator
